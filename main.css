@@ -1,0 +1,340 @@
+
+.header
+{
+    width:1600px;
+    height: 34px;
+    background-color: #ff6200;
+}
+
+#header_content{
+    margin:10px 0px 0px 318px;
+    display: inline-block;
+}
+
+#header_content a{
+    text-decoration: none;
+}
+
+#call
+{
+    width:190px;
+    height: 14px;
+    text-align: left;
+}
+
+#login
+{
+    width:85px;
+    height: 13px;
+    text-align: right;
+    margin: 0px 0px 0px 690px;
+}
+
+
+.dark_style
+{
+    font-family: Bebas;
+    color:  #be3500;
+    font-size: 14.77px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 19px;/* Approximation due to font substitution */
+}
+
+.white_style
+{
+    /* Inline Style */
+    font-family: Bebas;
+    color:  #ffffff;
+    font-size: 14.77px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 18.646px;/* Approximation due to font substitution */
+}
+
+#login text:hover 
+{
+    font-weight: bold;
+}
+
+.nav_bar
+{
+    background-color: rgba(237, 237, 237, 0.36);
+    width: 1600px;
+    height: 109px;
+    text-align:left;
+    overflow:hidden;
+    display:inline-block;
+}
+
+.dropdown
+{
+    position:absolute;
+    display:inline-block;
+    
+    
+}
+
+.dropdown_content
+{
+    display:none;
+    position: absolute;
+    border-style: groove;
+    width:103px;
+    margin:30px 0px 0px 0px;
+}
+
+.dropdown_content ul
+{
+    list-style: none;
+    padding:0px;
+}
+
+
+.nav_bar h2
+{
+    width:173px;
+    height:38px;
+    margin: 38px 0px 33px 313px;
+    
+    
+    font-family: Bebas;
+    color:  #313131;
+    font-size: 40.76px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 18.646px;/* Approximation due to font substitution */
+    text-align: left;
+    float:left;
+}
+
+.nav_bar span
+{
+    color: #ff6200;   
+}
+
+.nav_bar li
+{
+    float:left;
+    padding:20px 8.5px;
+    
+}
+
+.nav_bar a
+{
+    text-decoration: none;
+    font-family: 'Myriad Pro';
+    color:  #333333;
+    font-weight: 400;
+    text-align: right;
+}
+
+.nav_bar a:hover
+{
+    /* Inline Style */
+    font-family: 'Myriad Pro';
+    color:  #333333;
+    font-weight: 700;
+    text-align: right;
+    border-bottom: 4px solid red;
+    padding-bottom: 8px.
+}
+
+
+
+.nav_bar li:hover .dropdown_content
+{
+    display:inline-block;
+}
+
+.nav_bar > ul
+{
+    float:left;
+    margin: 10px 0px 0px 353px;
+    display:inline-block;
+    list-style:none;
+}
+
+.current_position h2
+{
+    padding: 47px 0px 43px 318px;
+    font-family: Ubuntu;
+    color:  #929292;
+    font-size: 14px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 24.646px;/* Approximation due to font substitution */
+    text-align: left;
+}
+
+.current_position span
+{
+    font-family: Ubuntu;
+    color:  #222222;
+    font-size: 14px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 24.646px;/* Approximation due to font substitution */
+    text-align: left;
+}
+
+.contact_text
+{
+    margin:0px 0px 0px 318px;
+    width:830px;
+    height:125px;
+    
+}
+
+.contact_text h1
+{
+    font-family: OpenSans;
+    color:  #ff6200;
+    font-size: 26.67px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 24.646px;/* Approximation due to font substitution */
+    text-align: left;
+    transform: scaleY(1.0109);/* width and height properties ommitted due to transform */
+}
+
+.contact_text p2
+{
+    
+    font-family: Ubuntu;
+    color:  #878787;
+    font-size: 15px;/* Approximation due to font substitution */
+    font-weight: 300;
+    line-height: 19px;/* Approximation due to font substitution */
+    text-align: left;
+}
+
+.communication
+{
+    float:left;
+    display:inline-block;
+    width:1400px;
+    margin: 0px 0px 0px 318;
+}
+
+.communication h2
+{
+    font-family: OpenSans;
+    color:  #ff6200;
+    font-size: 23px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 24.646px;/* Approximation due to font substitution */
+    text-align: left;
+    
+}
+
+.contact_us_box
+{
+    float:left;
+    width:690px;
+    height:256px;
+}
+
+
+.reach_us_box
+{
+    float:left;
+    width:690px;
+    height:256px;
+}
+
+.reach_us_box p
+{
+    /* Inline Style */
+    font-family: 'Myriad Pro';
+    color:  #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+
+.reach_us_box h3
+{
+    font-family: 'Myriad Pro';
+    color:  #595959;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 6px;
+    text-align: left;
+}
+
+.dark_block
+{
+    background-color:rgba(61, 61, 61, 0.89);
+    width: 470px;
+    height: 6px;
+}
+
+input[name=name]
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  rgba(0, 0, 0, 7);
+    box-sizing: border-box;
+    background-color:  #f6f6f6;
+    width: 470px;
+    height: 32px;
+    margin: 20px 0px 0px 0px;
+}
+
+input[name=phone]
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  rgba(0, 0, 0, 7);
+    box-sizing: border-box;
+    background-color:  #f6f6f6;
+    width: 230px;
+    height: 32px;
+    margin:5px 0px;
+}
+input[name=email]
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  rgba(0, 0, 0, 7);
+    box-sizing: border-box;
+    background-color:  #f6f6f6;
+    width: 230px;
+    height: 32px;
+    margin:5px 0px 0px 5px;
+}
+
+input[name=message]
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  rgba(0, 0, 0, 7);
+    box-sizing: border-box;
+    background-color:  #f6f6f6;
+    width: 470px;
+    height: 109px;
+    margin:5px 0px 0px 0px;
+    
+}
+
+input[type=submit]
+{
+    background-color:  #ff6200;
+    width: 98px;
+    height: 37px;
+    
+    
+    font-family: OpenSans;
+    color:  #ffffff;
+    font-size: 13.04px;/* Approximation due to font substitution */
+    font-weight: 700;
+    text-align: left;
+    transform: scaleX(1.0004);/* width and height properties ommitted due to transform */
+    text-transform: uppercase;
+    text-align: center;
+    margin: 22px 0px 0px 0px;
+}
+
+.contact_info
+{
+    width:470px;
+}
+
+
+
